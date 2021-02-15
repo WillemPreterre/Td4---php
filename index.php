@@ -7,7 +7,7 @@ $message = '';
 // Flag 
 $isValid = false;
 // Test longueur du password
-if (strlen($password) < 8 ) {
+if (strlen($password) < 8  ) {
   $message .= "Votre mot de passe doit comporter au moins 8 caractères \n";
 } 
 // Test minuscule
